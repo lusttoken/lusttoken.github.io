@@ -673,7 +673,27 @@ button {
      padding: 30px 0px 0px 0px;
      padding-bottom: 10px;
 }
-
+input{
+     width: 500px;
+     background-color: #7b1b1c;
+     border-radius: 10px;
+     outline: none;
+     color: white;
+     border: none;
+}
+i{
+     color: white;
+}
+button{
+     background-color: #7b1b1c;
+     outline: none;
+     border: none;
+     color: white;
+     border-radius: 10px;
+     width: 20%;
+}
+button:focus { outline: none; }
+input:focus { outline: none; }
 .cont span {
      color: #fff;
      font-size: 30px;
