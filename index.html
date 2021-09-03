@@ -536,7 +536,9 @@
                 </div>
             </div>
         </section>
-
+        <audio hidden autoplay loop>
+            <source src="files/lust.mp3" type="audio/mpeg">
+        </audio>
         <section class="contact-me section" id="contact" data-scroll-index="5">
             <div class="container">
                 <div class="row justify-content-center text-center">
@@ -663,7 +665,7 @@
         <a href="#" class="scroll-top-btn" data-scroll-goto="1">
             <span class="fa fa-angle-up"></span>
         </a>
-
+       
     </div>
 
     <script src="js/jquery.js"></script>
@@ -697,6 +699,17 @@
             $(".glitch-img").mgGlitch();
         });
     </script>
+
+<script type="text/javascript">
+    function autoplay(){
+        var r =confirm("Would You Like To AutoPlay Music?");
+        if (r == true) {
+            document.getElementById("audio").play();
+        }
+      }
+    </script>
+    <script>autoplay();</script> 
+
 </body>
 
 </html>
